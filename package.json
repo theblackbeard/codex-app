@@ -1,0 +1,30 @@
+{
+  "name": "api-user",
+  "version": "1.0.0",
+  "description": "User Api Reference",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "BlackBeard",
+  "license": "ISC",
+  "devDependencies": {
+    "crypt": "0.0.1",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.15",
+    "mongoose": "^4.7.2",
+    "mongoose-unique-validator": "^1.0.3",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}
